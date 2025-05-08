@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    `maven-publish`
 }
 
 android {
@@ -45,4 +46,13 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+}
+publishing {
+    publications {
+        register<MavenPublication>("release") {
+            groupId = "com.github.wc0811"
+            artifactId = "CwLib"
+            version = "1.3"
+        }
+    }
 }
