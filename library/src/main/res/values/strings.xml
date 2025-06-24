@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">CwLib</string>
+    //region [Common]
+    <string name="sure">Sure</string>
+    <string name="cancel">Cancel</string>
+    <string name="update">UPDATE</string>
+    <string name="delete">DELETE</string>
+    <string name="add">ADD</string>
+    <string name="data_empty_error">Please confirm the data</string>
+    //endregion [Common]
 </resources>
