@@ -39,7 +39,7 @@ afterEvaluate {
             create<MavenPublication>("release") {
                 groupId = "com.github.wc0811"
                 artifactId = "YPLib"
-                version = "2.0.3"
+                version = "1.0"
             }
         }
         repositories {
