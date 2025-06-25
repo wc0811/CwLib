@@ -46,6 +46,6 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 //    implementation(project(":library"))
-    implementation(libs.cwlib)
+//    implementation(libs.cwlib)
 
 }
