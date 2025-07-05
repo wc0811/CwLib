@@ -42,8 +42,8 @@ afterEvaluate {
         publications {
             create<MavenPublication>("release") {
                 groupId = "com.github.wc0811"
-                artifactId = "cwlib"
-                version = "1.3"
+                artifactId = "CwLib"
+                version = "1.4"
             }
         }
         repositories {
